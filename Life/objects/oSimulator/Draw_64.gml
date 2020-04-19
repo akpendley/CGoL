@@ -14,7 +14,7 @@ if (!hideInfo)
 		draw_text(10, room_height / 2 - 120, "PAUSE");
 		draw_text(10, room_height - 80, roomNames[? room]);
 		draw_set_font(fStats);
-		draw_text(10, room_height / 2, "toggle cell - left click\nresume - space\nreset level - r\nhide info - h\nnext level - tab\nspeed - up/down\nquit - esc");
+		draw_text(10, room_height / 2, "paint cell - left/right click\nresume - space\nreset level - r\nhide info - h\nnext level - tab\nspeed - up/down\nquit - esc");
 	}
 	
 	// stats in the top left
